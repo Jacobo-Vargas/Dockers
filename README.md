@@ -60,7 +60,7 @@ Este proyecto tiene como objetivo la consolidación de la infraestructura de una
 
 ![imagen](https://github.com/user-attachments/assets/e307aca9-37ed-4af2-9a88-c642802e7223)
 
--**Creación de los DockerFile para mysql, nginx y apache**
+## Creación de los DockerFile para mysql, nginx y apache
   - **DockerFile mysql**
   ![imagen](https://github.com/user-attachments/assets/41a9c327-3c67-41f8-861d-d4361538cb04)
 
@@ -82,6 +82,19 @@ Este proyecto tiene como objetivo la consolidación de la infraestructura de una
 
   **Construcción de image-mysql**
   ![imagen](https://github.com/user-attachments/assets/39d6eae2-2ab3-4630-a098-c9061eb55f59)
+
+## Ejecución de las imagenes creadas
+- **Comando para ejecutar una imagen usando un volumen para mapear los archivos que usa el contenedor**
+  - docker run -d --name **nombre_contenedor** -v /**volumen**:**directorio_logico** -p **puerto de uso**:**puerto_expuesto_en_el_DockerFile** **nombre_imagen**
+  ![imagen](https://github.com/user-attachments/assets/6fc7f060-ebd1-412a-a2ab-9bbeb9bb6437)
+
+- **Prueba de los contenedores ejecutados**
+  - Esta es la prueba de los contenedores ejecutados usando la información alojada en el volumen lógico que se creó 
+  ![imagen](https://github.com/user-attachments/assets/c8f1467f-ff4f-4061-9d8b-099c01e81a3f)
+  
+  - Archivos que se modificaron con la pagina de prueba
+  ![imagen](https://github.com/user-attachments/assets/cb52ec95-c173-4fc1-92c5-8ee2463a8fff)
+
 
 
 
