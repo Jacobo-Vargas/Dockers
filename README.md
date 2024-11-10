@@ -28,6 +28,11 @@ Este proyecto tiene como objetivo la consolidación de la infraestructura de una
 - **Comando para creación de RAIDs:** 
   - sudo mdadm --create --verbose /dev/**nombre** --level=**nivelRaid** --raid-devices=**numeroDiscos** /dev/**disco**
 - En la siguiente imagen se puede observar la creación de los RAIDs 
+
+## Autores
+- Esta guia fue desarrollada por los estudiantes:
+    - Jacobo Vargas García
+    - Juan Jose Contretas
  
 ![imagen](https://github.com/user-attachments/assets/5cdac65c-3aeb-4c4e-8e72-99a931fb1511)
 
@@ -94,6 +99,11 @@ Este proyecto tiene como objetivo la consolidación de la infraestructura de una
   
   - Archivos que se modificaron con la pagina de prueba
   ![imagen](https://github.com/user-attachments/assets/cb52ec95-c173-4fc1-92c5-8ee2463a8fff)
+
+-**Prueba de el contenedor de mysql**
+  - Se puede evidenciar en la imágen que el se hizo una conexion a mysql y se ejecuto un comando para ver las bases de datos que existen se observa **infradb** la cual fue creada desde el DockerFile y de este mismo modo se usó la contraseña definida para la base de datos la cual fue **rootpassword** 
+  ![imagen](https://github.com/user-attachments/assets/26e3e419-db8e-430f-a317-b89aceea2dc4)
+
 
 
 
