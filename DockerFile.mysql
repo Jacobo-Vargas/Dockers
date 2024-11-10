@@ -1,0 +1,8 @@
+FROM mysql:latest
+
+ENV MYSQL_ROOT_PASSWORD=rootpassword
+ENV MYSQL_DATABASE=infradb
+
+EXPOSE 3306
+
+VOLUME ["/mnt/mysql"]

@@ -1,0 +1,7 @@
+FROM httpd:latest
+
+COPY ./pagina /usr/local/apache2/htdocs/
+
+EXPOSE 80
+
+VOLUME ["/mnt/apache"]

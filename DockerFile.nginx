@@ -1,0 +1,7 @@
+FROM nginx:latest
+
+COPY ./pagina /usr/share/nginx/html
+
+EXPOSE 80
+
+VOLUME ["/mnt/nginx"]
