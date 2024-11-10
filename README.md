@@ -105,6 +105,26 @@ Este proyecto tiene como objetivo la consolidación de la infraestructura de una
   ![imagen](https://github.com/user-attachments/assets/26e3e419-db8e-430f-a317-b89aceea2dc4)
 
 
+## Creación de imágenes a partir de los DockerFile existentes con Podman
+- **Comando para crear las imágenes:**
+  - podman build -t **nombre** -f **archivo_DockerFile**
+  .**apache**
+  ![imagen](https://github.com/user-attachments/assets/c0b87a50-4ca6-41c1-b9f4-10df7880a461)
+
+  -**nginx**
+  ![imagen](https://github.com/user-attachments/assets/a369fb68-d674-4d3e-97ed-5338c60f17c2)
+
+  -**mysql**
+  ![imagen](https://github.com/user-attachments/assets/59b1bb36-9ee2-4955-842e-4b80c478b1c3)
+
+- **Images creadas tanto en podman como en docker**
+  ![imagen](https://github.com/user-attachments/assets/751568bf-815e-4dde-83f1-475ffcfeaa10)
+
+
+
+
+
+
 
 
 
