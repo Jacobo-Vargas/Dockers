@@ -32,7 +32,7 @@ Este proyecto tiene como objetivo la consolidación de la infraestructura de una
 ## Autores
 - Esta guia fue desarrollada por los estudiantes:
     - Jacobo Vargas García
-    - Juan Jose Contretas
+    - Juan Jose Contreras
  
 ![imagen](https://github.com/user-attachments/assets/5cdac65c-3aeb-4c4e-8e72-99a931fb1511)
 
